@@ -1,0 +1,10 @@
+filemgmt -rm .jpg -e ...
+filemgmt -rm .jpg -er ...
+filemgmt -rm .jpg -ec ...
+filemgmt -rm .jpg
+
+filemgmt -rn ...files --self/-To
+filemgmt -rn .jpg --self
+filemgmt -rn .jpg -To ... -e files --self
+filemgmt -rn .jpg -To ... -ec "" --self
+filemgmt -rn .jpg -To ... -er / --self
